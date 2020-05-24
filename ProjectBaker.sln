@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Services", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Domain", "ProjectBaker.Domain\ProjectBaker.Domain.csproj", "{853E08E9-120D-432D-877C-6CBC68D023AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Identity", "ProjectBaker.Identity\ProjectBaker.Identity.csproj", "{EF11A868-3332-4E87-8F1F-91C7C18FAA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{853E08E9-120D-432D-877C-6CBC68D023AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{853E08E9-120D-432D-877C-6CBC68D023AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{853E08E9-120D-432D-877C-6CBC68D023AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

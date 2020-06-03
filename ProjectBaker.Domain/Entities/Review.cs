@@ -1,8 +1,7 @@
 ﻿namespace ProjectBaker.Domain.Entities
 {
-    public class Review
+    public class Review : BaseEntity
     {
-        public int Id { get; set; }
         public int UserId { get; set; }
         public string Text { get; set; }
         public string PostDate { get; set; }

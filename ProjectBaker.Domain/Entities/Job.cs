@@ -1,8 +1,7 @@
 ﻿namespace ProjectBaker.Domain.Entities
 {
-    public class Job
+    public class Job : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public int Salary { get; set; }

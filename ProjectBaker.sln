@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker", "ProjectBaker\ProjectBaker.csproj", "{A13A1620-24EF-49A2-92B5-85E84EE66ED0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.DAL", "ProjectBaker.DAL\ProjectBaker.DAL.csproj", "{0588A2CD-7F20-4AE2-9BE0-BC0977276562}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Services", "ProjectBaker.Services\ProjectBaker.Services.csproj", "{607C371B-7E87-4042-B499-C9BA3B4A0F89}"
@@ -10,16 +8,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Domain", "Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Identity", "ProjectBaker.Identity\ProjectBaker.Identity.csproj", "{EF11A868-3332-4E87-8F1F-91C7C18FAA48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBaker.Web", "ProjectBaker.Web\ProjectBaker.Web.csproj", "{18BEEB64-0A98-49D4-8A83-70FAD9EF6FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A13A1620-24EF-49A2-92B5-85E84EE66ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A13A1620-24EF-49A2-92B5-85E84EE66ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A13A1620-24EF-49A2-92B5-85E84EE66ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A13A1620-24EF-49A2-92B5-85E84EE66ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0588A2CD-7F20-4AE2-9BE0-BC0977276562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0588A2CD-7F20-4AE2-9BE0-BC0977276562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0588A2CD-7F20-4AE2-9BE0-BC0977276562}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +32,9 @@ Global
 		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF11A868-3332-4E87-8F1F-91C7C18FAA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BEEB64-0A98-49D4-8A83-70FAD9EF6FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BEEB64-0A98-49D4-8A83-70FAD9EF6FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BEEB64-0A98-49D4-8A83-70FAD9EF6FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BEEB64-0A98-49D4-8A83-70FAD9EF6FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,12 +1,10 @@
-﻿using System.Data.Entity;
-
-namespace ProjectBaker.DAL
-{
-    internal class ProjectBakersDbContextTestingInitializer : DropCreateDatabaseAlways<ProjectBakerDbContext>
-    {
-        protected override void Seed(ProjectBakerDbContext context)
-        {
-            //place for logging
-        }
-    }
-}
+﻿//namespace ProjectBaker.DAL
+//{
+//    internal class ProjectBakersDbContextTestingInitializer
+//    {
+//        protected override void Seed(ProjectBakerDbContext context)
+//        {
+//            //place for logging
+//        }
+//    }
+//}

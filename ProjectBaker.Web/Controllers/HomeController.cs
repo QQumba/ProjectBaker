@@ -33,5 +33,11 @@ namespace ProjectBaker.Web.Controllers
         {
             return View();
         }
+
+        public IActionResult Error()
+        {
+            var feature = this.HttpContext.Features.Get<IExceptionHandlerFeature>();
+            return View("~/Views/Shared/Error.cshtml", feature?.Error);
+        }
     }
 }
